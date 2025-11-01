@@ -38,7 +38,7 @@ let feedbackDuration = 120; // 顯示 2 秒 (60 fps * 2)
 function preload() {
     // 預載入 CSV 檔案
     // 'csv' 表示檔案類型, 'header' 表示第一行是標頭
-    questionTable = loadTable('questions_1.csv', 'csv', 'header');
+    questionTable = loadTable('questions.csv', 'csv', 'header');
 }
 
 function setup() {
